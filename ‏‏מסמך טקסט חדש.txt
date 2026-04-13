@@ -1,0 +1,136 @@
+בשמור את זה כקובץ בשם `index.html`:
+
+```html
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <title>יהושע - טיולים בדרום</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            direction: rtl;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #d35400;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            background: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .gallery {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .gallery img {
+            width: 30%;
+            border-radius: 10px;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>יהושע - טיולים בדרום</h1>
+    <p>חוויות בלתי נשכחות במדבר</p>
+</header>
+
+<nav>
+    <a href="#">בית</a>
+    <a href="#">טיולים</a>
+    <a href="#">גלריה</a>
+    <a href="#">צור קשר</a>
+</nav>
+
+<div class="hero">
+    בואו לגלות את הדרום
+</div>
+
+<div class="container">
+    <h2>מי אנחנו?</h2>
+    <p>
+        אנחנו מציעים טיולים מודרכים בדרום הארץ – מדבר יהודה, הנגב, מצפה רמון ועוד.
+        חוויות ייחודיות, נופים עוצרי נשימה וליווי מקצועי.
+    </p>
+
+    <h2>גלריית תמונות</h2>
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" alt="מדבר">
+        <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e" alt="הרים">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="נוף">
+    </div>
+</div>
+
+<footer>
+    <p>© כל הזכויות שמורות ליהושע טיולים בדרום</p>
+</footer>
+
+</body>
+</html>
+```
+
+---
+
+## 🚀 איך להשתמש
+
+1. פתח פנקס רשימות (Notepad)
+2. הדבק את הקוד
+3. שמור בשם:
+   `index.html`
+4. לחץ פעמיים על הקובץ – האתר ייפתח בדפדפן
+
+---
+
+## 💡 רוצה לשדרג?
+
+אני יכול גם:
+
+* להוסיף **טופס יצירת קשר אמיתי**
+* לחבר ל־**וואטסאפ**
+* להוסיף **מפת גוגל**
+* לבנות לך גרסה עם **הזמנות אונליין**
+* או להפוך את זה ל־**אתר מקצועי עם אנימציות**
+
+תגיד לי מה אתה רוצה להוסיף 👍
